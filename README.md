@@ -19,7 +19,7 @@
     ->  Check URL https://ip:8444 in browser			
 
 
-Note : If the URL's are not working means there is a problem with keystore file. Please do below stpes to get the keystore from container 
+Note : If the URL's are not working means there is a problem with keystore file. Please do below steps to get the keystore from container 
       
 	  Step1 : Start the continer with -d 
 	  Step2 : Command to download (docker cp containerid:/usr/local/tomcat/conf/key/keystore .)
