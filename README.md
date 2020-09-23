@@ -10,13 +10,13 @@
 
             docker run -it -p 8443:8443 -v /your_mounted_conf_directory:/usr/local/tomcat/conf -v /your_mounted_webapps_directory:/usr/local/tomcat/webapps -d image_id
 			
-    ->  Check URL https://ip:8443 in browser
+    ->  Check URL https://ip:8443/sample in browser
 
 4) Multiple Instance:
             		
 			docker run -it -p 8444:8443 -v /your_mounted_conf_directory:/usr/local/tomcat/conf -v /your_mounted_webapps_directory:/usr/local/tomcat/webapps -d image_id
 
-    ->  Check URL https://ip:8444 in browser			
+    ->  Check URL https://ip:8444/sample in browser			
 
 
 Note : If the URL's are not working means there is a problem with keystore file. Please do below steps to get the keystore from container 
